@@ -1,0 +1,12 @@
+#navbar {
+  background-color: #77216f;
+}
+#helloworld-text {
+  font-size: 3vw;
+  color: #e95420;
+  font-family: "Ubuntu Mono", monospace;
+}
+body {
+  padding-top: 70px;
+  font-family: "Ubuntu", sans-serif;
+}
