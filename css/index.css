@@ -1,6 +1,9 @@
 #navbar {
   background-color: #77216f;
 }
+.nav-link {
+  color: #ffffff;
+}
 #helloworld-text {
   color: #e95420;
 }
