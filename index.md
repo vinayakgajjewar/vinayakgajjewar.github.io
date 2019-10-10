@@ -1,5 +1,5 @@
 # Vinayak Gajjewar
-[My GitHub](https://github.com/vinayakgajjewar) | [My SoundCloud](https://soundcloud.com/ournada)
+[My GitHub](https://github.com/vinayakgajjewar) | [My SoundCloud](https://soundcloud.com/ournada) | [vinayakgajjewar@gmail.com](mailto:vinayakgajjewar@gmail.com)
 ## What I'm Doing:
 - Learning French
 - Undergraduate student at UC Riverside (BS in Computer Science)
