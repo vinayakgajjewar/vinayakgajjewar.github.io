@@ -8,6 +8,11 @@ div.jumbotron {
     background-color: #073642;
 }
 
+.btn {
+    background-color: #073642;
+    color: #6c71c4;
+}
+
 a {
     color: #6c71c4;
 }
