@@ -8,6 +8,7 @@ div.jumbotron {
     background-color: #073642;
 }
 
+/* Make it match the jumbotron's bg color */
 .btn {
     background-color: #073642;
     color: #6c71c4;
