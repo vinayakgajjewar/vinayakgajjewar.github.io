@@ -20,6 +20,7 @@ div.jumbotron {
 
 a {
     color: #6c71c4;
+    font-size: 16px;
 }
 
 h1, h2 {
@@ -28,8 +29,14 @@ h1, h2 {
 
 h1 {
     color: #859900;
+    font-size: 42px;
 }
 
 h2 {
     color: #b58900;
+    font-size: 26px;
+}
+
+p {
+    font-size: 16px;
 }
