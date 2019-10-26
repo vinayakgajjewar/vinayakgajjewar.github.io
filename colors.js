@@ -10,7 +10,7 @@ var toggleColors = function() {
         document.getElementsByTagName("body")[0].style.background = "#002b36";
         document.getElementsByClassName("jumbotron")[0].style.background = "#073642";
         document.getElementsByClassName("btn")[0].style.background = "#073642";
-        document.getElementsByTagName("body")[0].style.color = "#93a1a1";
+        document.getElementsByTagName("body")[0].style.color = "#839496";
         darkMode = true;
     }
 }
