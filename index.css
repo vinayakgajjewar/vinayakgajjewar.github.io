@@ -1,15 +1,16 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #002b36;
-    color: #839496;
+    background-color: #2A313C;
+    color: #89919E;
 }
 
 div.jumbotron {
-    background-color: #073642;
+    background-color: #404753;
+    color: #89919E;
 }
 
 a {
-    color: #6c71c4;
+    color: #89919E;
     font-size: 16px;
 }
 
@@ -18,12 +19,12 @@ h1, h2 {
 }
 
 h1 {
-    color: #859900;
+    color: #01A575;
     font-size: 42px;
 }
 
 h2 {
-    color: #b58900;
+    color: #01A575;
     font-size: 26px;
 }
 
