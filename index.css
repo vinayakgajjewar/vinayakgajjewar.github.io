@@ -8,16 +8,6 @@ div.jumbotron {
     background-color: #073642;
 }
 
-/* Make it match the jumbotron's bg color */
-.btn {
-    background-color: #073642;
-    color: #6c71c4;
-}
-
-.btn:hover {
-    color: #d33682;
-}
-
 a {
     color: #6c71c4;
     font-size: 16px;
