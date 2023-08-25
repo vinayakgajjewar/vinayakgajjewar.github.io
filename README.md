@@ -1,3 +1,5 @@
+{{ site.data.navigation}}
+
 # About
 
 Hi! I am an incoming Ph.D. student at the [UCSB RACELab](https://sites.cs.ucsb.edu/~ckrintz/racelab.html). My faculty advisors are [Dr. Chandra Krintz](https://sites.cs.ucsb.edu/~ckrintz/) and [Dr. Rich Wolski](https://sites.cs.ucsb.edu/~rich/).
