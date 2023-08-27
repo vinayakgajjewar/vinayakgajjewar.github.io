@@ -1,4 +1,7 @@
-{{ site.data.navigation}}
+---
+layout: page
+title: "Vinayak Gajjewar :)"
+---
 
 # About
 
