@@ -1,3 +1,15 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+<div id="scoped-content">
+
+<style type="text/css" scoped>
+        p, h1 {
+          font-family: 'JetBrains Mono', monospace;
+        } 
+    </style>
+
 <table border="0" cellpadding="0">
   <td valign="top" style="min-width: 140px;">
     <img src="/assets/3ed-288-tropical-island.png" width="160">
@@ -18,3 +30,5 @@ I have previously worked with [Dr. Ahmed Eldawy](https://cs.ucr.edu/~eldawy/) at
 # Publications
 
 [WildfireDB: An Open-Source Dataset Connecting Wildfire Occurrence with Relevant Determinants.](assets/WildfireDB_An_Open-Source_Dataset_Connecting_Wildfire_Occurrence_with_Relevant_Determinants.pdf) Singla, S., Mukhopadhyay, A., Wilbur, M., Diao, T., **Gajjewar, V.**, Eldawy, A., Kochenderfer, M., Shachter, R., & Dubey, A.
+
+</div>
