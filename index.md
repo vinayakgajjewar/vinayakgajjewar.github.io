@@ -5,6 +5,7 @@ layout: home
 
 <table border="0" cellpadding="0">
   <td valign="top" style="min-width: 140px;">
+    <img src="/assets/3ed-288-tropical-island.png" width="160">
   </td>
   <td valign="top">
     Ph.D. student<br />
