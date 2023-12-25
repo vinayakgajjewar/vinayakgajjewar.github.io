@@ -1,15 +1,3 @@
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
-</head>
-
-<style>
-  body {
-    font-family: 'JetBrains Mono', monospace !important;
-  }
-</style>
-
 <table border="0" cellpadding="0">
   <td valign="top" style="min-width: 140px;">
     <img src="/assets/3ed-288-tropical-island.png" width="160">
