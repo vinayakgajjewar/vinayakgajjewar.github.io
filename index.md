@@ -9,8 +9,8 @@ layout: home
   </td>
   <td valign="top">
     Ph.D. student<br />
-    Computer science<br \>
-    University of California, Santa Barbara<br \>
+    Computer science<br />
+    University of California, Santa Barbara<br />
     <a href="mailo:vinayakgajjewar@gmail.com">vinayakgajjewar [at] gmail [dot] com</a><br />
     <a href="/assets/cv.pdf">Curriculum vitae</a>
   </td>
