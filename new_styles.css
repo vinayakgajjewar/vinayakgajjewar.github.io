@@ -1,7 +1,10 @@
 :root {
-    font-family: Inter, sans-serif!important;
-    font-feature-settings: 'liga' 1, 'calt' 1!important; /* fix for Chrome */
+  font-family: Inter, sans-serif !important;
+  font-feature-settings: 'liga' 1, 'calt' 1 !important;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif !important;
   }
-  @supports (font-variation-settings: normal) {
-    :root { font-family: InterVariable, sans-serif!important; }
-  }
+}
