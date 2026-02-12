@@ -1,6 +1,7 @@
 ---
-title: Science versus engineering
+title: "Science versus engineering"
 date: 2025-08-05
+layout: post
 ---
 
 As computer science students, we are trained primarily as engineers, learning how to build products that deliver value to the world in some way. However, performing research in computer science is a very different kind of endeavor, with both a science component and an engineering component. If you do not distinguish between effort put towards science and effort put towards engineering, it is all too easy to waste an enormous amount of time without pushing your research forward.
