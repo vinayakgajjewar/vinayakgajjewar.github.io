@@ -1,6 +1,6 @@
 ---
 title: Vinayak's homepage
-layout: default
+layout: home
 ---
 
 ![Vinayak headshot](assets/square-pfp.png)
