@@ -10,6 +10,17 @@
 
 <body>
     {{ content }}
+    <h1>Recent posts</h1>
+    <ul>
+        {% for post in site.posts limit 5 %}
+        <li>
+            <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+            </a>
+            <small> — {{ post.date | date: "%B %d, %Y" }}</small>
+        </li>
+        {% endfor %}
+    </ul>
 </body>
 
 </html>
