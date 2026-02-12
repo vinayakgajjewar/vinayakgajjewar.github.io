@@ -7,6 +7,9 @@ layout: default
 - [Curriculum vitae](assets/cv.pdf)
 - [LinkedIn](https://www.linkedin.com/in/vinayak-gajjewar-464806195/)
 - [GitHub](https://github.com/vinayakgajjewar)
+- [Obsidian Publish](https://publish.obsidian.md/cataquack/Homepage)
+
+![Vinayak headshot](assets/square-pfp.png)
 
 # About me
 

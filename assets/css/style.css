@@ -5,3 +5,9 @@ html {
     line-height: 1.5;
     font-family: 'Verdana', sans-serif;
 }
+
+img {
+    display: block;
+    max-width: 25%;
+    margin: auto;
+}
