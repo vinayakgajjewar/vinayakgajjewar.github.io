@@ -1,5 +1,6 @@
 ---
-title: Welcome to my personal website!
+title: Vinayak's homepage
+layout: default
 ---
 
 - vinayakgajjewar [at] gmail [dot] com
