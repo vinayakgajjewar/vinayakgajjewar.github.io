@@ -1,3 +1,7 @@
-body {
+html {
+    max-width: 70ch;
+    padding: 2ch;
+    margin: auto;
+    line-height: 1.5;
     font-family: 'Verdana', sans-serif;
 }
