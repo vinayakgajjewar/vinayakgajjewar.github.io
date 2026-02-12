@@ -4,6 +4,12 @@ html {
     margin: auto;
     line-height: 1.5;
     font-family: 'Georgia', serif;
+
+    /* neutral-800 */
+    color: #262626;
+
+    /* neutral-50 */
+    background-color: #fafafa;
 }
 
 img {
