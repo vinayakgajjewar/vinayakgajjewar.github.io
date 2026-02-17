@@ -5,11 +5,8 @@ html {
     line-height: 1.5;
     font-family: 'Georgia', serif;
 
-    /* neutral-800 */
-    color: #262626;
-
-    /* neutral-50 */
-    background-color: #fafafa;
+    /* slate 700 */
+    color: #334155;
 }
 
 img {
