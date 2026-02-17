@@ -1,12 +1,15 @@
-html {
+body {
     max-width: 70ch;
     padding: 2ch;
     margin: auto;
     line-height: 1.5;
     font-family: 'Georgia', serif;
 
-    /* slate 700 */
-    color: #334155;
+    /* break long words at arbitrary points to prevent overflow */
+    overflow-wrap: anywhere;
+
+    /* gray 800 */
+    color: #1f2937;
 }
 
 img {
