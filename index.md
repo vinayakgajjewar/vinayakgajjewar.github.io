@@ -17,4 +17,4 @@ I'm Vinayak, a Ph.D. student at UC Santa Barbara co-advised by [Chandra Krintz](
 
 My current research focuses on enabling geospatial analytics in remote IoT environments.
 
-> "We are what we repeatedly do. Excellence, then, is not an act, but a habit." —Aristotle
+> *"We are what we repeatedly do. Excellence, then, is not an act, but a habit."* —Aristotle
