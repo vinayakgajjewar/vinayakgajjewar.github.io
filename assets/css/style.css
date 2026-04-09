@@ -2,14 +2,14 @@ body {
     max-width: 70ch;
     padding: 2ch;
     margin: auto;
-    line-height: 1.5;
+    line-height: 1.3;
     font-family: 'Georgia', serif;
 
     /* break long words at arbitrary points to prevent overflow */
     overflow-wrap: anywhere;
 
-    /* gray 800 */
-    color: #1f2937;
+    /* neutral 800 */
+    color: #262626;
 }
 
 h1,
@@ -19,6 +19,9 @@ h4,
 h5,
 h6 {
     font-family: 'Verdana', sans-serif;
+
+    /* sky 800 */
+    color: #075985
 }
 
 img {
