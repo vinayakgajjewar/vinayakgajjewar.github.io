@@ -13,7 +13,7 @@ layout: home
 
 # About me
 
-I'm Vinayak, a Ph.D. student at UC Santa Barbara co-advised by [Chandra Krintz](https://sites.cs.ucsb.edu/~ckrintz/) and [Rich Wolski](https://sites.cs.ucsb.edu/~rich/). I have previously workeded with [Ahmed Eldawy](https://www.cs.ucr.edu/~eldawy/) at UC Riverside.
+I'm Vinayak, a Ph.D. student at UC Santa Barbara co-advised by [Chandra Krintz](https://sites.cs.ucsb.edu/~ckrintz/) and [Rich Wolski](https://sites.cs.ucsb.edu/~rich/). I have previously worked with [Ahmed Eldawy](https://www.cs.ucr.edu/~eldawy/) at UC Riverside.
 
 My current research focuses on enabling geospatial analytics in remote IoT environments.
 
