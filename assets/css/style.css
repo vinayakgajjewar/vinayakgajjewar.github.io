@@ -18,10 +18,10 @@ h3,
 h4,
 h5,
 h6 {
-    /* font-family: 'Verdana', sans-serif; */
 
     /* sky 800 */
-    color: #075985
+    color: #075985;
+    line-height: 1.0;
 }
 
 img {
