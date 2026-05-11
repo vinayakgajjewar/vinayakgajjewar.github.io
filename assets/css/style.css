@@ -3,13 +3,18 @@ body {
     padding: 2ch;
     margin: auto;
     line-height: 1.5;
-    font-family: 'Arial', sans-serif;
+    font-family: ui-sans-serif, sans-serif;
+    /* font-family: 'Arial', sans-serif; */
 
     /* break long words at arbitrary points to prevent overflow */
     overflow-wrap: anywhere;
 
     /* slate 800 */
     color: #1e293b;
+}
+
+code {
+    font-family: ui-monospace, monospace;
 }
 
 h1,
