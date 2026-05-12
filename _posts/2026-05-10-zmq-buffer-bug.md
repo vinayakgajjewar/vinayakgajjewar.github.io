@@ -25,9 +25,9 @@ an example of what the receiving socket would read:
 {"dropoff_datetime":"2013-01-07 18:20:47"}dropoff_datetime":"dropoff_datetime"}
 ```
 
-As it turns out, the issue was in the following piece of code, which can be
-found in my ZeroMQ helper functions for sending and receiving `std::string`
-objects:
+Notice that this is not valid JSON. As it turns out, the issue was in the
+following piece of code, which can be found in my ZeroMQ helper functions for
+sending and receiving `std::string` objects:
 
 ```
 char *c_str = static_cast<char *>(msg.data());
@@ -41,7 +41,9 @@ C/C++ expects that every C-string is terminated with a null byte (`/0`). When
 you convert a `char *` into a `std::string`, under the hood, C++ keeps reading
 bytes until it encounters this null byte, at which point it stops. If the
 sequence of bytes you specify does not have a valid null byte, it will just keep
-reading, and reading, and reading... which can have nasty side effects.
+reading, and reading, and reading... which can have nasty side effects. In my
+case, the nasty side effect in question was that parts of previously-received
+messages would be appended to the current message!
 
 The fix turned out to be pretty simple: when converting a ZeroMQ message buffer
 into a `std::string`, you just need to remember to specify the exact number of
@@ -58,3 +60,5 @@ previous `recv` data! I guess that means that zeromq uses the same memory region
 across recv() calls. It's possible that ZeroMQ might be reusing a
 previously-allocated message buffer across `recv` calls. Most investigation is
 required.
+
+Thanks for reading!
