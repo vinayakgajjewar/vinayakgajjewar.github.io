@@ -1,0 +1,7 @@
+- how lazy pirate works in zeromq
+- formula for abstract/intro (nicholas carlini style)
+    - might also want to compare with famous papers as examples
+    - also discuss cgi model
+- how i fixed my local latex setup
+- docker hack for compiling for rpi
+    - libzmq.so and all that
