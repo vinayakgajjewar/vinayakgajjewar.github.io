@@ -4,6 +4,12 @@ date: 2026-05-15
 layout: post
 ---
 
+It's kinda funny that abstracts are the part of research papers that are written
+last, but are the parts that are read by the most people. I can personally say
+that I use the abstract of a research paper to judge whether or not it is
+relevant for me to read further. Thus, it is important for abstracts to be
+clear, concise, and representative of the rest of the paper.
+
 Writing abstracts and introductions for my research papers used to be a bit of a
 dark art for me, where I would just sort of vaguely summarize the main thrust of
 my paper and hope that it got the point across. Lately, though, after reading
@@ -25,22 +31,28 @@ fiction for this very reason. It is important for there to be no surprises in
 the structure of your paper so that the content (which is the important part!)
 comes through as cleanly as possible.
 
-- I got this formula from a Nicholas Carlini blog post -
-  https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html
-- This is not the standard, even for CS systems research papers
-- The formula for abstracts
-    - #1: the broader topic you're working on
-        - Computer science is a broad landscape—what subfield are we operating
-          in?
-    - #2: the specific problem you are going to solve
-        - What was not possible before that your paper makes possible?
-    - #3: your methods/techniques/key insight
-        - Your paper should have exactly one key idea that it revolves around
-    - #4: your results
-        - Cite your main result
-    - #5: why your work matters
-        - Now that we know whatwe know, what is possible that was not possible
-          before?
+The abstracts I write that follow this template are exactly five sentences long,
+no more and no less:
+
+- Sentence #1 sets the stage and introduces the broader topic you're working on.
+- Sentence #2 introduces the specific problem that you're going to solve in this
+  paper.
+- Sentence #3 should summarize the key insight/technique you use to solve the
+  problem introduced in sentence 2.
+- Sentence #4 should contain you "headline result" that demonstrates, broadly,
+  that your idea works in practice.
+- Sentence #5 concludes the abstract by emphasizing why exactly this work
+  matters in the broader context of computer science.
+
+Note that this is just a skeleton or template, and thus there is a lot of wiggle
+room to play around with when writing abstracts in practice. In fact, a lot of
+extremely well-written CS research papers completely eschew this template. For
+example, you might need two sentences to summarize your results, or you may
+decide that the problem you're solving in the paper is so well-known and
+formalized that it is unecessary to mention it in the abstract. However, I do
+maintain that following this template/formula will at least provide a solid
+starting point that you can modify at your discretion.
+
 - This formula can be applied to your introduction as well but each bullet is a
   paragraph instead of a sentence
     - In general, an introduction should just be an expanded version of your
@@ -49,9 +61,11 @@ comes through as cleanly as possible.
 - Alternative: CGI
     - How does CGI map onto this formula
 
-https://ieeexplore.ieee.org/abstract/document/7958570
+As an example, we'll walk through the abstract from
+[this](https://ieeexplore.ieee.org/abstract/document/7958570) CS research paper.
+Here's the abstract in its entirety:
 
-Neural networks provide state-of-the-art results for most machine learning
+*Neural networks provide state-of-the-art results for most machine learning
 tasks. Unfortunately, neural networks are vulnerable to adversarial examples:
 given an input x and any target classification t, it is possible to find a new
 input x' that is similar to x but classified as t. This makes it difficult to
@@ -68,4 +82,39 @@ algorithms, our attacks are often much more effective (and never worse).
 Furthermore, we propose using high-confidence adversarial examples in a simple
 transferability test we show can also be used to break defensive distillation.
 We hope our attacks will be used as a benchmark in future defense attempts to
-create neural networks that resist adversarial examples.
+create neural networks that resist adversarial examples.*
+
+#1:
+
+*Neural networks provide state-of-the-art results for most machine learning
+tasks.*
+
+#2:
+
+*Unfortunately, neural networks are vulnerable to adversarial examples: given an
+input x and any target classification t, it is possible to find a new input x'
+that is similar to x but classified as t. This makes it difficult to apply
+neural networks in security-critical areas.*
+
+#3:
+
+*Defensive distillation is a recently proposed approach that can take an
+arbitrary neural network, and increase its robustness, reducing the success rate
+of current attacks' ability to find adversarial examples from 95% to 0.5%. In
+this paper, we demonstrate that defensive distillation does not significantly
+increase the robustness of neural networks by introducing three new attack
+algorithms that are successful on both distilled and undistilled neural networks
+with 100% probability.*
+
+#4:
+
+*Our attacks are tailored to three distance metrics used previously in the
+literature, and when compared to previous adversarial example generation
+algorithms, our attacks are often much more effective (and never worse).
+Furthermore, we propose using high-confidence adversarial examples in a simple
+transferability test we show can also be used to break defensive distillation.*
+
+#5:
+
+*We hope our attacks will be used as a benchmark in future defense attempts to
+create neural networks that resist adversarial examples.*
