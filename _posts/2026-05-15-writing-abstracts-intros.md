@@ -53,17 +53,10 @@ formalized that it is unecessary to mention it in the abstract. However, I do
 maintain that following this template/formula will at least provide a solid
 starting point that you can modify at your discretion.
 
-- This formula can be applied to your introduction as well but each bullet is a
-  paragraph instead of a sentence
-    - In general, an introduction should just be an expanded version of your
-      abstract
-- Walk through some fictional examples and how they map onto this formula
-- Alternative: CGI
-    - How does CGI map onto this formula
-
-As an example, we'll walk through the abstract from
-[this](https://ieeexplore.ieee.org/abstract/document/7958570) CS research paper.
-Here's the abstract in its entirety:
+To make this structure a bit more concrete, let's walk through an abstract from
+a real published research paper
+([this](https://ieeexplore.ieee.org/abstract/document/7958570) one, to be
+precise). Here's the abstract in its entirety:
 
 *Neural networks provide state-of-the-art results for most machine learning
 tasks. Unfortunately, neural networks are vulnerable to adversarial examples:
@@ -84,19 +77,31 @@ transferability test we show can also be used to break defensive distillation.
 We hope our attacks will be used as a benchmark in future defense attempts to
 create neural networks that resist adversarial examples.*
 
-#1:
+Let's break this down through the lens of my five-part structure.
 
 *Neural networks provide state-of-the-art results for most machine learning
 tasks.*
 
-#2:
+This sentence informs the reader what subfield of computer science this paper is
+most relevant to. Specifically, the keywords "neural networks" and "machine
+learning" act as signposts to tell the reader what topic this paper dabbles in.
+Here's the sentence that follows:
 
 *Unfortunately, neural networks are vulnerable to adversarial examples: given an
 input x and any target classification t, it is possible to find a new input x'
 that is similar to x but classified as t. This makes it difficult to apply
 neural networks in security-critical areas.*
 
-#3:
+This sentence clearly tells the reader what specific problem in the subfield of
+neural networks this paper is going to tackle: the existence of adverserial
+inputs. Stating the problem clearly up-front like this primes the reader and
+tells them what to look for while reading the rest of your paper. It also acts
+as an escape hatch. At this point, a potential reader might not care whatsoever
+about the problem of adverserial inputs. After reading three sentences of your
+abstract, that reader can then decide that the rest of this paper is not
+reading. Let's assume that our reader is indeed interested in this research
+problem. The next logical step is to introduce the novel insight that this paper
+produces:
 
 *Defensive distillation is a recently proposed approach that can take an
 arbitrary neural network, and increase its robustness, reducing the success rate
