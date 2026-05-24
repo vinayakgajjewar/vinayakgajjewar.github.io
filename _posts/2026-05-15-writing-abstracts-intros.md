@@ -152,3 +152,10 @@ evidence to your reader that your idea actually works.
 The last step (and arguably the most important) is to "widen the funnel" back
 out and concretely state why this paper matters in the broader field of research
 it inhabits.
+
+# That's it!
+
+That's all for now. I hope that this was helpful in some way. Writing research
+papers is still one of those things that I'm still figuring out how to do well,
+but reading a bunch of abstracts and realizing that they all follow a broad
+pattern was definitely a big "a-ha!" moment for me.
