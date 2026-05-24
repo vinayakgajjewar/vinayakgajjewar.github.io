@@ -60,31 +60,31 @@ a real published research paper
 ([this](https://ieeexplore.ieee.org/abstract/document/7958570) one, to be
 precise). Here's the abstract in its entirety:
 
-*Neural networks provide state-of-the-art results for most machine learning
-tasks. Unfortunately, neural networks are vulnerable to adversarial examples:
-given an input x and any target classification t, it is possible to find a new
-input x' that is similar to x but classified as t. This makes it difficult to
-apply neural networks in security-critical areas. Defensive distillation is a
-recently proposed approach that can take an arbitrary neural network, and
-increase its robustness, reducing the success rate of current attacks' ability
-to find adversarial examples from 95% to 0.5%. In this paper, we demonstrate
-that defensive distillation does not significantly increase the robustness of
-neural networks by introducing three new attack algorithms that are successful
-on both distilled and undistilled neural networks with 100% probability. Our
-attacks are tailored to three distance metrics used previously in the
-literature, and when compared to previous adversarial example generation
-algorithms, our attacks are often much more effective (and never worse).
-Furthermore, we propose using high-confidence adversarial examples in a simple
-transferability test we show can also be used to break defensive distillation.
-We hope our attacks will be used as a benchmark in future defense attempts to
-create neural networks that resist adversarial examples.*
+> *Neural networks provide state-of-the-art results for most machine learning
+> tasks. Unfortunately, neural networks are vulnerable to adversarial examples:
+> given an input x and any target classification t, it is possible to find a new
+> input x' that is similar to x but classified as t. This makes it difficult to
+> apply neural networks in security-critical areas. Defensive distillation is a
+> recently proposed approach that can take an arbitrary neural network, and
+> increase its robustness, reducing the success rate of current attacks' ability
+> to find adversarial examples from 95% to 0.5%. In this paper, we demonstrate
+> that defensive distillation does not significantly increase the robustness of
+> neural networks by introducing three new attack algorithms that are successful
+> on both distilled and undistilled neural networks with 100% probability. Our
+> attacks are tailored to three distance metrics used previously in the
+> literature, and when compared to previous adversarial example generation
+> algorithms, our attacks are often much more effective (and never worse).
+> Furthermore, we propose using high-confidence adversarial examples in a simple
+> transferability test we show can also be used to break defensive distillation.
+> We hope our attacks will be used as a benchmark in future defense attempts to
+> create neural networks that resist adversarial examples.*
 
 ## Broader topic
 
 Let's break this down through the lens of my five-part structure.
 
-*Neural networks provide state-of-the-art results for most machine learning
-tasks.*
+> *Neural networks provide state-of-the-art results for most machine learning
+> tasks.*
 
 This sentence informs the reader what subfield of computer science this paper is
 most relevant to. Specifically, the keywords "neural networks" and "machine
@@ -94,10 +94,10 @@ learning" act as signposts to tell the reader what topic this paper dabbles in.
 
 Here's the sentence that follows:
 
-*Unfortunately, neural networks are vulnerable to adversarial examples: given an
-input x and any target classification t, it is possible to find a new input x'
-that is similar to x but classified as t. This makes it difficult to apply
-neural networks in security-critical areas.*
+> *Unfortunately, neural networks are vulnerable to adversarial examples: given
+> an input x and any target classification t, it is possible to find a new input
+> x' that is similar to x but classified as t. This makes it difficult to apply
+> neural networks in security-critical areas.*
 
 This sentence clearly tells the reader what specific problem in the subfield of
 neural networks this paper is going to tackle: the existence of adverserial
@@ -112,27 +112,43 @@ this paper produces:
 
 ## Novel insight
 
-*Defensive distillation is a recently proposed approach that can take an
-arbitrary neural network, and increase its robustness, reducing the success rate
-of current attacks' ability to find adversarial examples from 95% to 0.5%. In
-this paper, we demonstrate that defensive distillation does not significantly
-increase the robustness of neural networks by introducing three new attack
-algorithms that are successful on both distilled and undistilled neural networks
-with 100% probability.*
+> *Defensive distillation is a recently proposed approach that can take an
+> arbitrary neural network, and increase its robustness, reducing the success
+> rate of current attacks' ability to find adversarial examples from 95% to
+> 0.5%. In this paper, we demonstrate that defensive distillation does not
+> significantly increase the robustness of neural networks by introducing three
+> new attack algorithms that are successful on both distilled and undistilled
+> neural networks with 100% probability.*
 
 Well that was a bit of a juke! It turns out that this paper advances our
 understanding of the world by demonstrating that a proposed technique (defense
-distillation) does not actually work that well in practice. Note that this
+distillation) does not actually work that well in practice. This is still a very
+real insight that advances our understanding of this problem space. Note that
+this is really the "core" of your paper, and as such, it is a very useful
+exercise to see if you can actually summarize it in one or two concise
+sentences. If you find this difficult, that might be a sign that you are trying
+to cram too many disparate ideas into a single paper, when maybe they should be
+separate papers.
 
 ## Evaluation results
 
-*Our attacks are tailored to three distance metrics used previously in the
-literature, and when compared to previous adversarial example generation
-algorithms, our attacks are often much more effective (and never worse).
-Furthermore, we propose using high-confidence adversarial examples in a simple
-transferability test we show can also be used to break defensive distillation.*
+> *Our attacks are tailored to three distance metrics used previously in the
+> literature, and when compared to previous adversarial example generation
+> algorithms, our attacks are often much more effective (and never worse).
+> Furthermore, we propose using high-confidence adversarial examples in a simple
+> transferability test we show can also be used to break defensive
+> distillation.*
+
+A idea is worthless if it doesn't actually work in practice, and hopefully you
+are evaluating the efficacy of your idea in some way, so it is very important
+that you summarize the results of that evaluation in your abstract to give some
+evidence to your reader that your idea actually works.
 
 ## Why this matters
 
-*We hope our attacks will be used as a benchmark in future defense attempts to
-create neural networks that resist adversarial examples.*
+> *We hope our attacks will be used as a benchmark in future defense attempts to
+> create neural networks that resist adversarial examples.*
+
+The last step (and arguably the most important) is to "widen the funnel" back
+out and concretely state why this paper matters in the broader field of research
+it inhabits.
