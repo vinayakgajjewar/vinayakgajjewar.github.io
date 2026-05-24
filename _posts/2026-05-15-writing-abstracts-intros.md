@@ -53,6 +53,8 @@ formalized that it is unecessary to mention it in the abstract. However, I do
 maintain that following this template/formula will at least provide a solid
 starting point that you can modify at your discretion.
 
+# Real-world example
+
 To make this structure a bit more concrete, let's walk through an abstract from
 a real published research paper
 ([this](https://ieeexplore.ieee.org/abstract/document/7958570) one, to be
@@ -77,6 +79,8 @@ transferability test we show can also be used to break defensive distillation.
 We hope our attacks will be used as a benchmark in future defense attempts to
 create neural networks that resist adversarial examples.*
 
+## Broader topic
+
 Let's break this down through the lens of my five-part structure.
 
 *Neural networks provide state-of-the-art results for most machine learning
@@ -85,6 +89,9 @@ tasks.*
 This sentence informs the reader what subfield of computer science this paper is
 most relevant to. Specifically, the keywords "neural networks" and "machine
 learning" act as signposts to tell the reader what topic this paper dabbles in.
+
+## Specific problem
+
 Here's the sentence that follows:
 
 *Unfortunately, neural networks are vulnerable to adversarial examples: given an
@@ -99,9 +106,11 @@ tells them what to look for while reading the rest of your paper. It also acts
 as an escape hatch. At this point, a potential reader might not care whatsoever
 about the problem of adverserial inputs. After reading three sentences of your
 abstract, that reader can then decide that the rest of this paper is not
-reading. Let's assume that our reader is indeed interested in this research
-problem. The next logical step is to introduce the novel insight that this paper
-produces:
+reading. However, let's assume that our reader is indeed interested in this
+research problem. The next logical step is to introduce the novel insight that
+this paper produces:
+
+## Novel insight
 
 *Defensive distillation is a recently proposed approach that can take an
 arbitrary neural network, and increase its robustness, reducing the success rate
@@ -111,7 +120,11 @@ increase the robustness of neural networks by introducing three new attack
 algorithms that are successful on both distilled and undistilled neural networks
 with 100% probability.*
 
-#4:
+Well that was a bit of a juke! It turns out that this paper advances our
+understanding of the world by demonstrating that a proposed technique (defense
+distillation) does not actually work that well in practice. Note that this
+
+## Evaluation results
 
 *Our attacks are tailored to three distance metrics used previously in the
 literature, and when compared to previous adversarial example generation
@@ -119,7 +132,7 @@ algorithms, our attacks are often much more effective (and never worse).
 Furthermore, we propose using high-confidence adversarial examples in a simple
 transferability test we show can also be used to break defensive distillation.*
 
-#5:
+## Why this matters
 
 *We hope our attacks will be used as a benchmark in future defense attempts to
 create neural networks that resist adversarial examples.*
