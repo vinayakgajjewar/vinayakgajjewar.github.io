@@ -11,3 +11,4 @@ layout: post
 - GitHub Pages + Jekyll (without setting it up locally!)
     - https://emmatheeng.github.io/projects/blog_setup/blog-setup.html
 - https://tailwindcss.com/docs/colors
+- https://designsystem.digital.gov/components/typography/
