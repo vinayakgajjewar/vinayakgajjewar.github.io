@@ -49,6 +49,23 @@ that the 101st element will wrap around and overwrite the first one.
 
 First, test PUT/GET on the local device
 
+```
+echo "3.14" | ./senspot-put -W woof://127.0.0.1/path/to/myfirstwoof -T d
+```
+
+The `-T d` bit tells `senspot-put` that you are appending an element of type
+double. (What are the other types?)
+
+```
+./senspot-get -W woof://127.0.0.1/path/to/myfirstwoof
+```
+
+The output from the above command should look similar to the following:
+
+```
+TODO
+```
+
 Notice how the sequence number that you get back increases.
 
 # Operations over the network
@@ -65,5 +82,20 @@ Bash script as a handler. Let's do the Bash script first. Create a file
 ```
 #/bin/bash
 
-echo "Hello world"
+echo "Hello world from a handler"
+```
+
+In the CSPOT paradigm, handlers are only triggered when data is appended to a
+WOOF, which happens when `senspot-put` is invoked, in our case. To append an
+element and trigger a computation, use the following command:
+
+```
+echo "3.14" | ./senspot-put -W woof://127.0.0.1/path/to/myfirstwoof -T d -H handler.sh
+```
+
+After this command completes, do `cat namespace.log` and you should see the
+output from the Bash script appear there:
+
+```
+TODO
 ```

@@ -1,8 +1,11 @@
 - how lazy pirate works in zeromq
     - is this too simple? it's just retries + create new sockets every time?
+    - zeromq sockets are a finite state machine, so you need to recreate them
+      sometimes
 - how i fixed my local latex setup
 - docker hack for compiling for rpi
     - libzmq.so and all that
 - how to get started with senspot on multiple raspberry pis
     - how to set up a handler
     - first, single-machine (or is that useless?)
+- a distillation of the grand unified theory of documentation
