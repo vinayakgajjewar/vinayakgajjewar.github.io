@@ -1,7 +1,8 @@
 - how lazy pirate works in zeromq
-- formula for abstract/intro (nicholas carlini style)
-    - might also want to compare with famous papers as examples
-    - also discuss cgi model
+    - is this too simple? it's just retries + create new sockets every time?
 - how i fixed my local latex setup
 - docker hack for compiling for rpi
     - libzmq.so and all that
+- how to get started with senspot on multiple raspberry pis
+    - how to set up a handler
+    - first, single-machine (or is that useless?)
