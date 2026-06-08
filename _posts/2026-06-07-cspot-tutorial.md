@@ -30,8 +30,11 @@ Start the namespace server on two different devices
 Then do `cat namespace.log`. You should see something similar to the following:
 
 ```
-TODO
+woofc-container: started message server
+listen: /home/pi/vinayak/iot-streaming/bin
 ```
+
+The file path will probably be different, though.
 
 # Creating your first WOOF
 
@@ -54,7 +57,7 @@ echo "3.14" | ./senspot-put -W woof://127.0.0.1/path/to/myfirstwoof -T d
 ```
 
 The `-T d` bit tells `senspot-put` that you are appending an element of type
-double. (What are the other types?)
+double. (TODO: what are the other types?)
 
 ```
 ./senspot-get -W woof://127.0.0.1/path/to/myfirstwoof
@@ -63,10 +66,12 @@ double. (What are the other types?)
 The output from the above command should look similar to the following:
 
 ```
-TODO
+3.140000 time: 1780951066.5463969707 192.168.101.30 seq_no: 1
 ```
 
-Notice how the sequence number that you get back increases.
+If your output looks like this: congratulations! You have just written and read
+from your first WOOF. Try performing some more `senspot-put` operations and
+notice how the `seq_no` field that you get from `senspot-get` changes.
 
 # Operations over the network
 
@@ -99,3 +104,13 @@ output from the Bash script appear there:
 ```
 TODO
 ```
+
+# Shutting down the namespace server
+
+Bafflingly, right now, there is no clean way to shut down as CSPOT namespace
+server. Until this functionality is added, right now you can do `pgrep woofc` to
+get a list of all the process IDs and use `kill -9 PID` to kill them all one by
+one.
+
+You need to do both `pgrep woofc-namespace` and `pgrep woofc-container`. Could
+you also use `pkill`?
