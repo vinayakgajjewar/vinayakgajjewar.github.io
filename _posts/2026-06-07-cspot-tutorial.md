@@ -75,7 +75,11 @@ notice how the `seq_no` field that you get from `senspot-get` changes.
 
 # Operations over the network
 
-Then, try PUT/GET on the other device
+Now, let's try performing some senspot operations over the network. To do so,
+you need CSPOT's namespace server to be running on both devices, and you also
+need to know their IP addresses. For example, if the two devices are connected
+via Ethernet, you're going to want to look at the IP addresses under the `eth0`
+or `enp1s0` network interfaces.
 
 # Triggering a handler
 
@@ -102,7 +106,9 @@ After this command completes, do `cat namespace.log` and you should see the
 output from the Bash script appear there:
 
 ```
-TODO
+woofc-container: started message server
+listen: /home/pi/vinayak/iot-streaming/bin
+Hello world from a handler
 ```
 
 # Shutting down the namespace server
@@ -112,5 +118,9 @@ server. Until this functionality is added, right now you can do `pgrep woofc` to
 get a list of all the process IDs and use `kill -9 PID` to kill them all one by
 one.
 
-You need to do both `pgrep woofc-namespace` and `pgrep woofc-container`. Could
-you also use `pkill`?
+# Wrap up
+
+Hopefully this was helpful! Perhaps in a later blog post, I'll walk through the
+steps required for building CSPOT from source because it can be a bit involved.
+The senspot binaries are a really user-friendly way to interact with CSPOT,
+though, so I am very glad they exist.

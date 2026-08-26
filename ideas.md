@@ -9,3 +9,16 @@
     - how to set up a handler
     - first, single-machine (or is that useless?)
 - a distillation of the grand unified theory of documentation
+- micro-tip: difference between bash shebangs and which one you should prefer
+- how i set up sshfs for remote development
+    - why you might want to use sshfs in the first place
+- microtip: boost::process and echo "hi" | cat shenanigans
+    - bash -c
+    - the pipe is interpreted by the shell
+    - boost::process::child does not invoke a shell
+    - note that i'll be talking about v1 of boost's api bc v2 uses asio?
+- typography ramblings
+    - gdocs and css use different line spacings
+    - how to set reasonable margins ("h" of 3rd alphabet + values for diff
+      fonts)
+- my paper writing checklist
