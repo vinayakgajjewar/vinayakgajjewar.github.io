@@ -1,19 +1,22 @@
+/* atkinson hyperlegible next + atkinson hyperlegible mono */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
 body {
     max-width: 68ch;
     padding: 2ch;
     margin: auto;
     line-height: 1.5;
-    font-family: ui-sans-serif, sans-serif;
+    font-family: 'atkinson hyperlegible next', sans-serif;
 
     /* break long words at arbitrary points to prevent overflow */
     overflow-wrap: anywhere;
 
-    /* slate 800 */
+    /* gray-90 */
     color: #1b1b1b;
 }
 
 code {
-    font-family: ui-monospace, monospace;
+    font-family: 'atkinson hyperlegible mono', monospace;
     overflow-wrap: break-word;
     white-space: pre-wrap;
 }
@@ -24,8 +27,6 @@ h3,
 h4,
 h5,
 h6 {
-
-    /* color: #075985; */
     line-height: 1.15;
     font-family: ui-serif, serif;
 }
