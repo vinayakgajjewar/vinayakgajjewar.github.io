@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
     line-height: 1.15;
-    font-family: ui-serif, serif;
+    /* font-family: ui-serif, serif; */
 }
 
 img {
